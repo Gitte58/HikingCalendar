@@ -15,12 +15,15 @@ h1 {
 h2 {
     font-size: xx-large;
 }
-header {
-    background-color: darkolivegreen;
-    color:beige;
+.header img{
+    float: left;
+    background: rgb(127, 141, 127);
 }
 .page-header {
-    height: 50vh;
+    position: relative;
+    top:18px;
+    left: 10px;
+    height: 30vh;
     background: center 75% / cover no-repeat;
 }
 .text-center {
@@ -39,7 +42,59 @@ header {
 strong {
     font-size: 1.3rem;
 }
+.text-white {
+    color: #FFFFFF;
+}
 
+.green-background {
+    background-color: #549E39;
+}
+
+#home {
+    background-image: url('assets/images/banner.jpg');
+}
+#countries {
+    padding: 1rem 0;
+    margin-bottom: 80px;
+    background: url('assets/images/sani_pass.jpg') center center / cover no-repeat fixed;
+}
+#northern-europe {
+    background-color: turquoise;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+#southern-africa {
+    background-color: #6f4e37;
+    position: relative;
+    right: 70px;
+    top: -15px;
+}
+.countries-box {
+    width: 33%;
+    margin: 1rem 0;
+    display: inline-block;
+}
+nav {
+    padding: 1rem;
+}
+nav>a {
+    text-decoration: none;
+    color: beige;
+    margin: 1rem;
+}
+nav>a:hover {
+    color: silver;
+}
+li {
+    list-style-type: none;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
 /*
 ul {
     list-style-type: none;
@@ -58,7 +113,6 @@ a {
     border-radius: 16px;
     font-family: Lato;
 }
-*/
 
 li {
     display: inline;
@@ -89,3 +143,4 @@ h1 {
 figure {
     margin-top: 40px;
 }
+*/
