@@ -1,9 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+h1,h2,h3 {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+h2 {
+    font-size: xx-large;
+}
+header {
+    background-color: darkolivegreen;
+    color:beige;
+}
+.page-header {
+    height: 50vh;
+    background: center 75% / cover no-repeat;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.vertical-center {
+    position: relative;
+    top: 30%;
+}
+strong {
+    font-size: 1.3rem;
+}
+
+/*
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
 a {
     border: 2px solid black;
     border-radius: 50%;
@@ -16,6 +58,7 @@ a {
     border-radius: 16px;
     font-family: Lato;
 }
+*/
 
 li {
     display: inline;
