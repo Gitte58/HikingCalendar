@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
-body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    margin: 0;
+.page-header {
+    height: 30vh;
     background-color: whitesmoke;
+    background: center 75% / cover no-repeat;
 }
 h1,h2,h3 {
     font-family: 'Merienda One', 'Brush Script MT', cursive;
@@ -15,33 +15,36 @@ h1 {
 h2 {
     font-size: xx-large;
 }
-.header img{
-    float: left;
-    background: rgb(127, 141, 127);
+h3 {
+    font-size: large;
 }
-.page-header {
-    position: relative;
-    top:18px;
-    left: 10px;
-    height: 30vh;
-    background: center 75% / cover no-repeat;
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-right {
     text-align: right;
 }
+
 .text-uppercase {
     text-transform: uppercase;
 }
+
 .vertical-center {
     position: relative;
     top: 30%;
 }
+
 strong {
     font-size: 1.3rem;
 }
+
 .text-white {
     color: #FFFFFF;
 }
@@ -51,19 +54,22 @@ strong {
 }
 
 #home {
-    background-image: url('assets/images/banner.jpg');
+    background-image: url(../images/banner.jpg);
 }
+
 #countries {
     padding: 1rem 0;
     margin-bottom: 80px;
-    background: url('assets/images/sani_pass.jpg') center center / cover no-repeat fixed;
+    background-image: url(../images/sani_pass.jpg) center center / cover no-repeat fixed;
 }
+
 #northern-europe {
     background-color: turquoise;
     position: relative;
     left: 70px;
     top: -15px;
 }
+
 #southern-africa {
     background-color: #6f4e37;
     position: relative;
@@ -75,17 +81,6 @@ strong {
     margin: 1rem 0;
     display: inline-block;
 }
-nav {
-    padding: 1rem;
-}
-nav>a {
-    text-decoration: none;
-    color: beige;
-    margin: 1rem;
-}
-nav>a:hover {
-    color: silver;
-}
 li {
     list-style-type: none;
 }
@@ -95,52 +90,17 @@ li {
 .float-right {
     float: right;
 }
-/*
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-a {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
-    font-family: Lato;
-}
-
 li {
     display: inline;
 }
-
 nav {
     text-align: center;
     border-bottom: 2px solid black;
     margin: 0px 20px 20px 20px;
     padding-bottom: 20px;
 }
-
-img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
-
-figure {
-    margin-top: 40px;
-}
-*/
