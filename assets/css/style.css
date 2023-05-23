@@ -21,14 +21,13 @@ h2 {
 h3 {
     font-size: large;
 }
-#logo {
+#home {
     float: left;
     font-size: 28%;
-}
-.page-header {
     height: 30vh;
     background-color: whitesmoke;
     background: center 75% / cover no-repeat;
+    background-image: url(../images/banner_w_logo.jpg);
 }
 body {
     font-family: 'Open Sans', Arial, sans-serif;
@@ -60,15 +59,9 @@ strong {
 .text-white {
     color: #FFFFFF;
 }
-
 .green-background {
     background-color: #549E39;
 }
-
-#home {
-    background-image: url(../images/banner.jpg);
-}
-
 #countries {
     padding: 1rem 0;
     margin-bottom: 80px;
