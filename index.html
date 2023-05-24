@@ -10,47 +10,47 @@
     <meta name="keywords"
         content="Hiking, biking, cycle tours, guided hiking, hiking and biking Europe, hiking and biking Africa">
     <meta name="author" content="HikingCalendar">
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>HikingCalendar</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="home">The HikingCalendar</h1>
-            <h2>Hiking, Biking, planned events and guided hikes</h2>
-        </a>
-        <nav>
-            <img src="assets/images/logo_banner.jpg" style="float:left" alt="HikingCalendar banner and logo">
+        <a href="index.html"></a>
+        <nav id="menu">
+            <div class="logo">
+                <h3>The HikingCalendar</h3>
+            </div>
             <ul>
                 <li>
-                    <a href="form.html"
-                        aria-label="Subscribe to our Newsletter and your chance to go on a guided hike">Subscribe</a>
-                </li>
-                <li>
-                    <a href="#Contact" aria-label="Contact information section">Contact</a>
-                </li>
-                <li>
-                    <a href="#About" aria-label="Go to About section">About us</a>
+                    <a href="#Home" aria-label="Go to the top of the page">Home</a>
                 </li>
                 <li>
                     <a href="#Countries" aria-label="Countries to visit">Countries</a>
                 </li>
                 <li>
-                    <a href="#Home" aria-label="Go to the top of the page">Home</a>
+                    <a href="#About" aria-label="Go to About section">About us</a>
+                </li>
+                <li>
+                    <a href="#Contact" aria-label="Contact information section">Contact</a>
+                </li>
+                <li>
+                    <a href="form.html"
+                        aria-label="Subscribe to our Newsletter and your chance to go on a guided hike">Subscribe</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <img src="assets/images/sani_pass.jpg"
-                alt="Sani mountain pass, located between KwaZulu-Natal, South Africa and Lesotho">
+
+    <section id="place-image">
+        <div id="hero-img"></div>
+        <div id="cover-text">
+            <h2>Hiking, biking, upcoming guided hikes and planned cycling events</h2>
         </div>
     </section>
 
     <section id="countries" class="text-center">
-        <h2>Select Country</h2>
+        <h2>Popular upcoming group hiking and biking events</h2>
         <div id="northern-europe" class="countries-box float-left">
             <h3>Northern Europe</h3>
             <ul>
@@ -63,14 +63,13 @@
             <h3>Southern Africa</h3>
             <ul>
                 <li>Limpopo Province</li>
-                <ul>
-                    <li>Munnik Meerkat Mountainbike Challenge</li>
-                </ul>
+            <ul>
+                <li>Munnik Meerkat Mountainbike Challenge</li>
+            </ul>
                 <li>Swaziland/Eswatini</li>
                 <li>Kruger Park</li>
             </ul>
         </div>
     </section>
 </body>
-
 </html>
